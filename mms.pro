@@ -13,8 +13,14 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    pcdmiswindow.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    pcdmiswindow.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui\
+    pcdmiswindow.ui
+
+RESOURCES += \
+    icons.qrc
